@@ -1,1 +1,1 @@
-Les LANDING PAGES sont disponible dans la branche LANDING
+L'ensemble des configurations du projets sont disponible dans les dossiers.
