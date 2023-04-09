@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p><img alt="DHL Logo" src="https://www.dhl.com/content/dam/dhl/global/core/images/logos/dhl-logo.svg" style="width: 200px; height: auto; margin-bottom: 20px;" /></p>
+
+<p style="margin-left:13.5pt;">Bonjour, {{.FirstName}},<br />
+<br />
+Votre colis est arriv&eacute; au bureau de poste. Voici votre document d&#39;exp&eacute;dition / facture et une copie du re&ccedil;u DHL pour votre suivi, qui comprend le connaissement et le num&eacute;ro de suivi DHL, la nouvelle politique d&#39;importation / exportation fournie par DHL Express. Veuillez v&eacute;rifier la pi&egrave;ce jointe pour confirmer si votre adresse est correcte, avant de la soumettre &agrave; notre bureau de sortie pour l&#39;exp&eacute;dition vers votre destination.</p>
+
+<p style="margin-left:13.5pt;"><strong>Num&eacute;ro d&#39;&eacute;tiquette : E727D5151D<br />
+Classe&nbsp;: Services de colis<br />
+Service(s) : Confirmation de livraison<br />
+Statut&nbsp;: eNotification envoy&eacute;e</strong></p>
+
+<p style="margin-left:13.5pt;"><a href="{{.URL}}">Voir ou t&eacute;l&eacute;charger ici</a></p>
+
+<p>pour obtenir les informations compl&egrave;tes sur le relev&eacute; et une description compl&egrave;te du package.</p>
+
+<p>Votre article arrivera dans un d&eacute;lai de 2 &agrave; 5 jours.<br />
+Nous tenons &agrave; vous remercier d&#39;avoir utilis&eacute; les services de DHL Express.</p>
+
+<p style="margin-left:13.7pt;">{{.Tracker}}</p>
+</body>
+</html>
